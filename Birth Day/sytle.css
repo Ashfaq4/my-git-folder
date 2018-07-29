@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(images/back.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  font-weight: 300;
+  position: relative;
+  height: 100vh;
+  color: #555;
+}
+.day-finder1, .day-finder2 {
+  margin: 10px;
+  border: 1px solid blue
+}
+
+.day-finder2 {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  background: green;
+  color: #ffffff;
+  margin-bottom: 3px;
+  width: 855px;
+  padding: 7px;
+}
+
+input {
+  width: 195px;
+  height: 45px;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  padding: 10px 5px;
+  font-size: 20px;
+
+}
